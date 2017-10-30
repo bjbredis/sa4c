@@ -1,4 +1,5 @@
 FROM centos
+## thanks Donne.Decapite@sas.com
 MAINTAINER brad barnes brad.barnes@sas.com
 ## install necessary libraries
 RUN yum -y install numactl-libs.x86_64
