@@ -22,4 +22,4 @@ RUN chown -R sas:sasstaff /usr/local/sashome
 EXPOSE 38080
 ## An optional startup script can be added (more details below)
 ADD startup.sh /
-ENTRYPOINT [“/startup.sh”]
+ENTRYPOINT ["/startup.sh"]
