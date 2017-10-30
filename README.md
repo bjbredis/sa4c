@@ -16,4 +16,4 @@ http://<docker-hostname>:38080/SASStudio
 ```
 
 ToDo: 
-*Reduce size of tarball
+* Reduce size of tarball
