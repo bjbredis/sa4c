@@ -12,7 +12,7 @@ $ docker run -d -p 38080:38080 docker.sas.com/canbxb/sa4c:latest
 ```
 To run it on whatever port is available:
 ```
-$ docker port `docker run -d -P docker.sas.com/canbxb/sa4c:latest`
+$ docker port $(docker run -d -P docker.sas.com/canbxb/sa4c:latest)
 38080/tcp -> 0.0.0.0:32771   # this is the port it found. 
 ```
 Point your browser to (replace docker-hostname with the hostname where the docker image was run):
