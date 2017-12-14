@@ -17,7 +17,7 @@ RUN usermod -a -G sasstaff sas
 RUN echo -e "foobar" | /usr/bin/passwd --stdin sas
 ## make SASHome directory
 RUN mkdir -p /usr/local/sashome
-ADD sashome.tar /
+ADD sashome.tar.gz /
 RUN chown -R sas:sasstaff /usr/local/sashome
 EXPOSE 38080
 ## An optional startup script can be added (more details below)
